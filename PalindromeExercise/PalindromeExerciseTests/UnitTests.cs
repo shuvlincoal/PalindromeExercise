@@ -9,6 +9,8 @@ namespace PalindromeExerciseTests
         //[Fact]
         [Theory]
         [InlineData("racecar", true)]
+        [InlineData("elephant", false)]
+        [InlineData("hannah", true)]
         public void IsPalodromeTest(string tstStr, bool expected)
         {
 
