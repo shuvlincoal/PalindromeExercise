@@ -11,7 +11,10 @@ namespace PalindromeExerciseTests
         [InlineData("racecar", true)]
         [InlineData("elephant", false)]
         [InlineData("hannah", true)]
-        public void IsPalodromeTest(string tstStr, bool expected)
+        [InlineData("tacocat", true)]
+        [InlineData("saxophone", false)]
+        [InlineData("radar", true)]
+        public void IsPalindromeTest(string tstStr, bool expected)
         {
 
             //Arrange - prep code, instantiate class
